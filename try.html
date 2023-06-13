@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Modules </title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/download (2).png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/download (2).png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/download (2).png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/notech-icons/style.css">
+    <link rel="stylesheet" href="assets/vendors/notech-two-icons/style.css">
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/notech.css" />
+    <link rel="stylesheet" href="assets/css/notech-responsive.css" />
+
+    <!-- modes css -->
+    <link rel="stylesheet" id="jssMode" href="assets/css/notech-light.css">
+
+
+    <!-- toolbar css -->
+    <link rel="stylesheet" href="assets/vendors/toolbar/css/toolbar.css">
+</head>
+
+<body>
+
+    <!-- style switcher -->
+    <div class="style-switcher">
+        <a href="#" id="switcher-toggler"><i class="fa fa-cog"></i></a>
+        <h3>Layout Options</h3>
+        <div class="layout-feature" id="colorMode">
+            <a href="" class="dark-switcher" data-theme="notech-dark">Dark</a>
+            <a href="" class="light-switcher" data-theme="notech-light">Light</a>
+            <button class="boxed-switcher">Boxed</button><!-- /.ltr-switcher -->
+        </div><!-- /.language-feature -->
+    </div>
+    <!-- end style switcher -->
+
+    <div class="preloader">
+        <img class="preloader__image"  src="assets/images/logo.png" alt="" width="220px" height="70px" >
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header clearfix">
+            <div class="main-header__top">
+                <div class="main-header__top-inner clearfix">
+                    <div class="main-header__top-left">
+                        <ul class="list-unstyled main-header__top-address">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-pin"></span>
+                                </div>
+                                <div class="text">
+                                    <p>>Etlab Infotech Private Limited
+                                        3rd Floor, CKR Junction,
+                                        Kannur</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="www.etuwa.in">moreinfoo@company.com</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-header__top-right">
+                        <div class="main-header__top-right-content">
+                            <div class="main-header__top-right-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="main-menu clearfix">
+                <div class="main-menu__wrapper clearfix">
+                    <div class="main-menu__left main-menu__left--two">
+                        <div class="main-menu__logo">
+                            <a href="index.html">
+                                <img class="logo-dark" src="assets/images/logo.png" alt=""  width="150px" height="50px">
+                                <img class="logo-light" src="assets/images/logo.png" alt="" width="150px" height="50px">
+                            </a>
+                        </div>
+                        <div class="main-menu__main-menu-box main-menu__main-menu-box--two">
+                            <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                            <ul class="main-menu__list">
+                                <li class="dropdown current megamenu">
+                                    <a href="index.html">HOME</a>
+                                    
+                                </li>
+                                <li class="dropdown">
+                                    <a href="about.html">ABOUT US</a>
+                                 
+                                </li>
+                                <li class="dropdown">
+                                    <a href="features.html">FEATURES</a>
+                                  
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">MODULES </a>
+                                  
+                                </li>
+                                <li class="dropdown">
+                                    <a href="https://engnr.etlab.in/user/login">DEMO</a>
+                                   
+                                </li>
+                                
+                                </li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>
+        </header>
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+        <!--Page Header Start-->
+        <section class="page-header">
+            <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+            </div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <br>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Modules</a></li>
+                        <li><span>/</span></li>
+                        
+                    </ul>
+                    <h2>Modules</h2>
+                </div>
+            </div>
+        </section>
+        <!--Page Header End-->
+        
+        <!--Service Details Start-->
+        <section class="service-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="service-details__left">
+                            
+                            <div class="service-details__need-help">
+                                <br><br><br>
+								<div class="service-details__need-help-bg" style="background-image: url(assets/images/bg5.jpg)">
+                                    <br><br>
+								</div>
+                                <h2 class="service-details__need-help-title"><br><br> <br> <br>  <br> <br> <br> </h2>
+								<div class="service-details__need-help-contact">
+									<p><br> <br> <br> </p>
+									<a href="tel:980009850"> <span><br> </span> <br> </a>
+								</div>
+								
+								
+								
+							</div>
+                            
+                            
+                            <div class="service-details__download">
+                                <a href="about.html" class="thm-btn service-details__download-btn">Know more about us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="tabs">
+                            <input type="radio" name="tabs" id="tabone" checked="checked">
+                            <label for="tabone">ADMIN</label>
+                            <div class="tab">
+                                <br>
+                              <h3>ADMIN ACCOUNT</H3>
+                              <p>Admin is the login that enjoys full privileges of the system. This account has complete control over the software. Logging in as ADMIN, the authorities can manipulate, control and co- ordinate the entire user accounts, their functionalities and working. This login is intended to be used as a master control by the concerned authorities. This login can be viewed as a constructive and maintenance oriented login. It can be used to create batches, allotting accounts for other entities and upload and edit profile information for students faculties, staff etc., It can be used to monitor and administer in cases of events like result publishing, issuing circulars, notifications, alerts and other broadcasts. It can also be used to maintain and manage the entire system. This login can also be used to publish administrative instructions, newsletters, photo galleries, ‘about’ information and other important downloads. Administer has a calendar which could remind and notify/alert important dates and schedules concerned and to do list also can be configured on the same.</p>
+                            </div>
+                            <input type="radio" name="tabs" id="tabtwo">
+                            <label for="tabtwo">FACULTY</label>
+                            <div class="tab">
+                                <br>
+                              <h3>FACULTY ACCOUNT</h3>
+                              <p>Faculty members can view hourly time tables and duty allotments at any time. In case of immediate substitution or duty allocation, the faculty may receive alerts in his account and associated mobile device. Study materials, assignments and notes can be posted in dedicated slots which will be available for students to access. Faculties can update class attendance records from their mobile phone or computer anywhere within the allotted time slice for that hour or session. Course file can be maintained entirely within the software. Attendance information of students, their assignment marks and corresponding internal marks can be uploaded from anywhere with ease. Faculties can verify their salary information in detail from their account. They can also verify their leave information including lapsed and pending leaves. The facility for online leave application is also available in the faculty account. The performance feedback regarding his classes provided by the students will be integrated and made available to the faculty. Online access to the library, transportation and hostel facilities are also provided in the faculty accounts.
+
+                              </p>
+                            </div>
+                            <input type="radio" name="tabs" id="tabthree">
+                            <label for="tabthree">STUDENT</label>
+                            <div class="tab">
+                                <br>
+                              <h3>STUDENT ACCOUNT</h3>
+                              
+                              <p>Each student in the campus has his own page allotted in the software. Initially, the student details should be uploaded by the admin for this. The students keep an eye on their attendance sheets through this login. They can carry out a self analysis of their performances in assignments and other examinations through the course file section. Students receive automatic alerts if their monthly attendance or internal performances go alarmingly low. This is very helpful for students. Students can view the college calendar and exam schedules through this window and refer to the syllabus at any instant of time. Along with it, a function for online leave application is added on. The system provides a very effective applet for online examination which can be used by faculties to conduct immediate test papers or mock exams. This applet can be further used also in other training and orientation programs for conducting quick exams. Students can submit assignments online by attaching files to the application. This saves up a lot of time compared to the queue up and submit method. The same submission module can be used for project verification from the guide. Weekly project reports for higher semester students and any other common or selected submissions can be can also be uploaded in the same slot. Fee remittances can be done in association with e-banking accounts. The records of fee acquired will be saved to the database and receipt will be generated. Students can access the library, placement cell, 
+                                hostel and transport facilities from their account. All payments, reservations etc will be recorded instantaneously.</p>
+                            </div>
+                            <input type="radio" name="tabs" id="tabfour">
+                            <label for="tabfour">LIBRARY</label>
+                            <div class="tab">
+                                <br>
+                              <h3>LIBRARY ACCOUNT</h3>
+                              <p>Through the library account the librarian can handle, update and publish all the details regarding the resources in the library. The librarian can upload catalogues of each book. The catalogue may contain all the information regarding a book. <br>Our system also provides a unique functionality for students and staff to verify the resource in the library online virtually and reserve books. <br>From Library account, the librarian can monitor this. Through this account, the status and availability of all books are updated. Moreover, a lending history of the books is maintained here. From this account, the librarian can obtain information regarding newly requested or suggested books by students or staff. This account also keeps an in and out register.
+                                 This can be made more effective by using the identity card along with a barcode reader.</p>
+                            </div>
+                            <input type="radio" name="tabs" id="tabfive">
+                            <label for="tabfive">PARENT</label>
+                            <div class="tab">
+                                <br>
+                              <h3>PARENT ACCOUNT</h3>
+                              <p>The parents are also given a specific login to the system. The complete performance charts of their ward including their internal marks, university marks, assignment marks and attendance are visible to the parents here.<bR> The mean, highest and lowest performances of the batch are also given alongside. The fee alerts will be provided to the parent accounts in advance to the designated dates of payment.<br> All fee remittance details are available for verification in this login. Facilities Online payment facility also provides. They will be notified about all important events of the college, and also announcement of results, declaration of exam dates etc. </p>
+                            </div>
+                            <input type="radio" name="tabs" id="tabsix">
+                            <label for="tabsix">OFFICE</label>
+                            <div class="tab">
+                                <br>
+                              <h3>OFFICE ACCOUNT</h3>
+                              <p>This login is dedicated to hand out the clerical and management aspects of the college office. Details of payment dues are generated to this account. This account provides the feature of issuing no due certificate.<bR> No due certificates will be automatically blocked in case of students with dues and all the details regarding the balance payment will available in this account. The office account provides the feature of payroll management. Salary and pay scale information of each and every employee is accessible from here. Along with it, their corresponding updated attendance summary will also be visible here.<br> Receipt generation for fee remittances will be done through this login. The office account provides a general asset register which shores and furnishes information regarding all the small and large belongings of the institution. It also provides inventory management tool to assist in purchase of equipments
+                                 and other entities and to make sure that they are always in adequate supply./p></p>
+                            </div>
+                            <input type="radio" name="tabs" id="tabseven">
+                            <label for="tabseven">LAB</label>
+                            <div class="tab">
+                                <br>
+                              <h3>LAB ACCOUNT</h3>
+                              <p>This account is dedicated to the laboratory management which enables the lab assistance to handle their job with ease. It has an equipment register which is much similar to the asset register. <br>It keeps all information regarding all the minute and heavy equipments in the lab. Lab keeps a separate attendance register which specifies date and session and 
+                                records usage of the equipments and identifies the students who uses it in any date, every session.</p>
+                            </div>
+                            <input type="radio" name="tabs" id="tab8">
+                            <label for="tab8">MORE</label>
+                            <div class="tab">
+                                <br>
+                              <h3>MORE MODULES</h3>
+                              <p>>The system provides several handy functions for hostel, mess and transport management. It has options functions for room reservation, allocation and mess billing.
+<BR>
+                               > It is compatible with the most modern e-storage trends like Dura Space. And thus can be implemented in any advanced environments.
+                               <BR> 
+                               > The software also provides great assistance to the placement cell. From the academic records students that claim cut offs can be always obtained. All details of these students are immediately accessible.
+                                <br>
+                               > Easily integrable to biometric / RF access cards
+                                <br>
+                               > Intelligent computing.
+                                <br>
+                               > Graphical charts.
+                                <br>
+                               > Attractive dynamic website ,with event notifications.
+                                <br>
+                                >Alumni registration.
+                                <br>
+                                >Android / Apple – mobile application.</p>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!--Service Details End-->
+
+                            
+<!--Site Footer Start-->
+<footer class="site-footer">
+    <div class="site-footer-bg-1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms"
+        style="background-image: 
+        
+        
+        (assets/images/shapes/site-footer-shape-1.png);">
+    </div>
+    <div class="site-footer-bg-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"
+        style="background-image: url(assets/images/shapes/site-footer-shape-2.png);">
+    </div>
+    <div class="site-footer__top">
+        <div class="container">
+            <div class="site-footer__top-inner">
+                <div class="site-footer__top-left">
+                    <div class="site-footer__top-icon">
+                        <span class="icon-artificial-intelligence"></span>
+                    </div>
+                    <h3 class="site-footer__top-title">Empowering you to conquer your technology challenges.</h3>
+                </div>
+                <div class="site-footer__top-right">
+                    <a href="about.html" class="thm-btn site-footer__btn">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer__middle">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="footer-widget__column footer-widget__contact clearfix">
+                        <h3 class="footer-widget__title">Contact us</h3>
+                        <ul class="footer-widget__contact-list list-unstyled clearfix">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-telephone"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="tel:980009850">+91 8113040003</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="mailto:needhelp@company.com">info@etlab.in</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-pin"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Etlab Infotech Private Limited
+                                        3rd Floor, CKR Junction,
+                                         <br> Kannur </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="footer-widget__column footer-widget__contact clearfix">
+                        <h3 class="footer-widget__title"><br></h3>
+                        <ul class="footer-widget__contact-list list-unstyled clearfix">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-telephone"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="tel:980009850">+91 8113040003</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="mailto:needhelp@company.com">info@etlab.in</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-pin"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Modern Programming LLC
+                                        Thanmiyah street, Opp GTC, 24011 PB NO. 2748,
+                                         <br> Salalah 211, S/O Oman </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="footer-widget__column footer-widget__contact1 clearfix">
+                        <h3 class="footer-widget__title"><br></h3>
+                        <ul class="footer-widget__contact-list list-unstyled clearfix">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-telephone"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="tel:980009850"> +91 9747003003</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="mailto:needhelp@company.com">info@etlab.in</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-pin"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Etlab Infotech Private Limited
+                                        Barwa Village,
+                                        P.B No : 2928
+                                        
+                                        
+                                         <br> Doha,Qatar </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="footer-widget__column footer-widget__contact1 clearfix">
+                        <h3 class="footer-widget__title"><br></h3>
+                        <ul class="footer-widget__contact-list list-unstyled clearfix">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-telephone"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="tel:980009850">+91 8113050003</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="mailto:info@etlab.com">info@etlab.in</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-pin"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Etlab Infotech Private Limited
+                                        #U8 , 
+                                        Yamere , Sarjapur Road
+                                        
+                                        
+                                        
+                                         <br> Bangalore </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="footer-widget__column footer-widget__about">
+                        <div class="footer-widget__logo">
+                            <br>
+                            <a href="index.html"><img src="assets/images/logo.png" alt=""  width="170px" height="50px"></a>
+                        </div>
+                        <div class="footer-widget__about-text-box">
+                            <p class="footer-widget__about-text">Subsrcibe for our upcoming latest articles and
+                                news resources</p>
+                        </div>
+                        <form class="footer-widget__newsletter-form">
+                            <div class="footer-widget__newsletter-input-box">
+                                <input type="email" placeholder="Email address" name="email">
+                                <button type="submit" class="footer-widget__newsletter-btn"><img
+                                        src="assets/images/icon/footer-widget-newsletter-send-icon.png"
+                                        alt=""></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="footer-widget__column footer-widget__social-box clearfix">
+                        <div class="site-footer__social">
+                            <br><br>
+                           <br> <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer__bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="site-footer__bottom-inner">
+                        <p class="site-footer__bottom-text">© 2023 Etlab Infotech Private Limited, All Rights Reserved. 
+                               
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Site Footer End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logo.png"
+                        width="155" alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:needhelp@packageName__.com">moreinfo@company.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:666-888-0000">+91 9747003003</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+
+
+
+
+    <!-- template js -->
+    <script src="assets/js/notech.js"></script>
+
+    <!-- toolbar js -->
+    <script src="assets/vendors/toolbar/js/js.cookie.min.js"></script>
+    <script src="assets/vendors/toolbar/js/jQuery.style.switcher.min.js"></script>
+    <script src="assets/vendors/toolbar/js/toolbar.js"></script>
+</body>
+
+</html>
